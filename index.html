@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
    <meta charset="UTF-8">
@@ -15,15 +15,15 @@
    <header>
       <nav class="navbar navbar-expand-xxl navbar-light bg-light fixed-top">
          <div class="container-fluid">
-            <a class="navbar-brand serMermerLogo" href="#"><img class="container-fluid" src="./resimler/logo.png"
-                  alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
+            <a class="navbar-brand mx-auto serMermerLogo" href="#"><img class="container-fluid"
+                  src="./resimler/logo.png" alt=""></a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mx-auto" id="myUL">
+               <ul class="navbar-nav mx-auto container">
                   <li class="nav-item">
                      <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
                   </li>
@@ -31,28 +31,28 @@
                      <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ev
                         Dekorasyon</a>
                      <ul class="dropdown-menu yatay-dropdown">
-                        <a href="./ürünler/ev-dekorasyon.html#küllük" rel="nofollow">
+                        <a href="./ürünler/ev-dekorasyon.html#küllük">
                            <li class=" dropdown-item">Küllük <br><img
                                  src="https://akn-mudo.b-cdn.net/products/2021/05/10/316224/2296b453-094d-4df2-8a06-4b39a5d5cffd.jpg"
                                  alt="küllük">
                            </li>
                         </a>
-                        <a href="./ürünler/ev-dekorasyon.html#geceLambası" rel="nofollow">
+                        <a href="./ürünler/ev-dekorasyon.html#geceLambası">
                            <li class="dropdown-item">Gece Lambası <br><img
                                  src="https://www.yerevdekor.com/images_buyuk/f64/gobek-bal-onyx-mumluk-aksesuar-d_35464_4.jpg"
                                  alt="gece-lambası"></li>
                         </a>
-                        <a href="./ürünler/ev-dekorasyon.html#mumluk" rel="nofollow">
+                        <a href="./ürünler/ev-dekorasyon.html#mumluk">
                            <li class="dropdown-item">Mumluk <br><img
                                  src="https://womadecor.com/image/cache/catalog/urunler/2li-mermer-mumluk-siyah-4-550x550.jpg"
                                  alt="mumluk"></li>
                         </a>
-                        <a href="./ürünler/ev-dekorasyon.html#zigonSehpa" rel="nofollow">
+                        <a href="./ürünler/ev-dekorasyon.html#zigonSehpa">
                            <li class="dropdown-item">Zigon Sehpa <br><img
                                  src="https://st2.myideasoft.com/idea/gy/69/myassets/products/013/venus-mermer-desen-zigon-sehpa.jpeg?revision=1633610631"
                                  alt="zigon-sehpa"></li>
                         </a>
-                        <a href="./ürünler/ev-dekorasyon.html#duvarSaati" rel="nofollow">
+                        <a href="./ürünler/ev-dekorasyon.html#duvarSaati">
                            <li class="dropdown-item">Duvar Saati <br><img
                                  src="https://evimigiydir.com/image/cache/catalog/Saatler/mermer-desenli-duvar-saati-570x685.jpg"
                                  alt="duvar-saati"></li>
@@ -64,7 +64,8 @@
                         Mutfak Ürünleri
                      </a>
                      <ul class="dropdown-menu yatay-dropdown" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="./ürünler/mutfak-ürünleri.html">Tepsi <br><img
+                        <li><a class="dropdown-item" href="./ürünler/mutfak-ürünleri.html#tepsiModelleri">Tepsi
+                              Modelleri<br><img
                                  src="https://st3.myideasoft.com/idea/de/82/myassets/products/439/pirinchalkalimermertepsi.jpg?revision=1612188461"
                                  alt="tepsi"></a></li>
                         <li><a class="dropdown-item" href="#">Peçetelik <br><img
@@ -100,19 +101,20 @@
                   <li class="nav-item">
                      <a class="nav-link" aria-current="page" href="./hakkımızda/hakkımızda.html">Hakkında</a>
                   </li>
-
-
                   <form action="#" class="d-flex mx-5">
-                     <input class="form-control me-2" type="search" id="myInput" placeholder="Search"
+                     <input class="form-control me-2" id="myInput" type="search" placeholder="Search"
                         aria-label="Search">
                   </form>
-
                   <div class="d-flex">
                      <a class="mx-2" href="./login/login.html"><button class="btn btn-outline-dark" type="button"><i
                               class="fa-solid fa-user mx-2"></i>Giriş Yap</button></a>
                      <a class="mx-2" href="./login/signin.html"><button class="btn btn-outline-dark" type="button"><i
                               class="fa-solid fa-user mx-2"></i>Kayıt Ol</button></a>
 
+                     <!-- shopping-cart  -->
+                     <a class="mx-2" href="./sepet/sepet.html"><button class="btn btn-outline-dark d-flex"
+                           type="button"> <i
+                              class="fa-sharp fa-solid fa-cart-shopping my-auto m-2"></i>Sepetim</button></a>
                   </div>
                </ul>
             </div>
@@ -260,8 +262,7 @@
       <div class="kampanyalı-ürün-container d-flex container py-5 row mx-auto">
 
          <div class="kampanyalı-ürün-img-container col-12 col-md-10 col-lg-5 col-sm-12">
-            <img src="https://www.homeartplus.com/upload/editor/data/ckfinder/images/blog/mermer-aksesuar-kullanimi.jpg"
-               alt="">
+            <img src="./resimler/sabunluk.jpg" alt="">
             <div class="kampanyalı-ürün-detay-container">
                <h4>Sabunluk</h4>
                <p>Kampanyalı Ürün 1</p>
@@ -269,9 +270,7 @@
          </div>
 
          <div class="kampanyalı-ürün-img-container col-12 col-md-10 col-lg-5 col-sm-12">
-            <img
-               src="https://www.homeartplus.com/upload/editor/cache/data/ckfinder/images/urunler-yeni/banyo/aren-altin-desenli-mermer-sabunluk-seti-6-parca-400x400.jpg"
-               alt="">
+            <img src="./resimler/mumluk.jpg" alt="">
             <div class="kampanyalı-ürün-detay-container">
                <h4>Mumluk</h4>
                <p>Kampanyalı Ürün 2</p>
