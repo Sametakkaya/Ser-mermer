@@ -13,19 +13,19 @@
 
 <body>
    <header>
-      <nav class="navbar navbar-expand-xxl navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-xl navbar-light bg-light fixed-top">
          <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mx-auto serMermerLogo" href="#"><img class="container-fluid"
+            <a class="navbar-brand serMermerLogo" href="./index.html"><img class="container-fluid"
                   src="./resimler/logo.png" alt=""></a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mx-auto container">
+               <ul class="navbar-nav mx-auto container-fluid justify-content-end">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
+                     <a class="nav-link active" aria-current="page" href="./index.html">Ana Sayfa</a>
                   </li>
                   <li class="nav-item dropdown position-static">
                      <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ev
@@ -68,13 +68,13 @@
                               Modelleri<br><img
                                  src="https://st3.myideasoft.com/idea/de/82/myassets/products/439/pirinchalkalimermertepsi.jpg?revision=1612188461"
                                  alt="tepsi"></a></li>
-                        <li><a class="dropdown-item" href="#">Peçetelik <br><img
+                        <li><a class="dropdown-item" href="./ürünler/mutfak-ürünleri.html#peçetelik">Peçetelik <br><img
                                  src="https://cdn03.ciceksepeti.com/cicek/kcm45930685-1/XL/dogal-mermer-pecetelik-gold-gumus-kcm45930685-1-91d2b435e1d04a55aa0eced9449595a9.jpg"
                                  alt="peçetelik"></a></li>
-                        <li><a class="dropdown-item" href="#">Sunum Tabağı <br><img
-                                 src="https://img.alkapida.com/images/products/a/439/gc01-s_1_zoom.jpg"
+                        <li><a class="dropdown-item" href="./ürünler/mutfak-ürünleri.html#sunumTabağı">Sunum Tabağı
+                              <br><img src="https://img.alkapida.com/images/products/a/439/gc01-s_1_zoom.jpg"
                                  alt="sunum-tabağı"></a></li>
-                        <li><a class="dropdown-item" href="#">Havan Seti <br><img
+                        <li><a class="dropdown-item" href="./ürünler/mutfak-ürünleri.html#havanSeti">Havan Seti <br><img
                                  src="https://cdn.dsmcdn.com/mnresize/500/-/ty491/product/media/images/20220726/13/150013922/528902019/1/1_org.jpg"
                                  alt="havan-seti"></a></li>
                      </ul>
@@ -84,14 +84,14 @@
                         Banyo Ürünleri
                      </a>
                      <ul class="dropdown-menu yatay-dropdown" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Peçetelik <br><img
+                        <li><a class="dropdown-item" href="./ürünler/banyo-ürünleri.html#peçetelik">Peçetelik <br><img
                                  src="https://cdn03.ciceksepeti.com/cicek/kcm45930685-1/XL/dogal-mermer-pecetelik-gold-gumus-kcm45930685-1-91d2b435e1d04a55aa0eced9449595a9.jpg"
                                  alt="peçetelik"></a></li>
                         <li><a class="dropdown-item" href="#">Sabunluk <br><img
                                  src="https://cdn.dsmcdn.com/ty195/product/media/images/20211014/1/146849258/262414304/0/0_org_zoom.jpg"
                                  alt="sabunluk"></a></li>
                         <li><a class="dropdown-item" href="#">Çöp Kovası <br><img
-                                 src="https://www.foreca.com.tr/foreca-siyah-mermer-desen-cop-kovasi-5-lt-renkli-cop-kovalari-foreca-255464-26-B.jpg"
+                                 src="https://cdn03.ciceksepeti.com/cicek/kcm38850966-1/XL/vayenahome-beyaz-mermer-desenli-banyo-seti-cop-kovasi-wc-fircalik-kcm38850966-1-e76295dd5b194d128439ea18c7375bbe.jpg"
                                  alt="çöp-kovası"></a></li>
                         <li><a class="dropdown-item" href="#">Banyo Seti <br><img
                                  src="https://st3.myideasoft.com/idea/he/97/myassets/products/290/ravi-mermer-banyo-seti-7-parca-1255-jpg.jpeg?revision=1637574288"
@@ -101,23 +101,34 @@
                   <li class="nav-item">
                      <a class="nav-link" aria-current="page" href="./hakkımızda/hakkımızda.html">Hakkında</a>
                   </li>
-                  <form action="#" class="d-flex mx-5">
-                     <input class="form-control me-2" id="myInput" type="search" placeholder="Search"
-                        aria-label="Search">
-                  </form>
-                  <div class="d-flex">
-                     <a class="mx-2" href="./login/login.html"><button class="btn btn-outline-dark" type="button"><i
-                              class="fa-solid fa-user mx-2"></i>Giriş Yap</button></a>
-                     <a class="mx-2" href="./login/signin.html"><button class="btn btn-outline-dark" type="button"><i
-                              class="fa-solid fa-user mx-2"></i>Kayıt Ol</button></a>
-
-                     <!-- shopping-cart  -->
-                     <a class="mx-2" href="./sepet/sepet.html"><button class="btn btn-outline-dark d-flex"
-                           type="button"> <i
-                              class="fa-sharp fa-solid fa-cart-shopping my-auto m-2"></i>Sepetim</button></a>
-                  </div>
                </ul>
             </div>
+         </div>
+         <form action="#" class="d-flex mx-3">
+            <!-- <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+            <input class="form-control me-2" id="myInput" type="search" placeholder="Search"
+               aria-label="Search"> -->
+            <div class="btn-group position-static">
+               <button class="btn" id="search-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+               </button>
+               <div class="dropdown-menu yatay-dropdown bg-light bg-opacity-50" aria-labelledby="dropdownMenuButton">
+                  <input type="text" name="search" id="search-input" placeholder=" Ara..">
+               </div>
+            </div>
+         </form>
+         <div class="d-flex justify-content-center navbar-icons">
+            <a class="mx-2 ana-sayfa" href="./index.html"><button class="btn btn-outline-dark" type="button"><i
+                     class="fa-solid fa-house"></i></button></a>
+            <a class="mx-2" href="./login/login.html"><button class="btn btn-outline-dark" type="button"><i
+                     class="fa-solid fa-user mx-2"></i><span>Giriş Yap</span></button></a>
+            <a class="mx-2 kayıt-ol" href="./login/signin.html"><button class="btn btn-outline-dark" type="button"><i
+                     class="fa-solid fa-user mx-2"></i>Kayıt Ol</button></a>
+
+            <!-- shopping-cart  -->
+            <a class="mx-2 shopping-card" href="./sepet/sepet.html"><button class="btn btn-outline-dark d-flex"
+                  type="button"><i
+                     class="fa-sharp fa-solid fa-cart-shopping my-auto m-2"></i><span>Sepet</span></button></a>
          </div>
       </nav>
    </header>
@@ -132,7 +143,7 @@
       <div class="whatsapp-icon"><a href="https://web.whatsapp.com/send?phone=+905550577437"
             target="_blank +905550577437"><img
                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png"
-               width="5%" alt="WhatsApp"></a></div>
+               alt="WhatsApp"></a></div>
 
       <!-- .............................Carousel.............................. -->
 
