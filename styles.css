@@ -7,8 +7,8 @@ body {
   background-size: cover;
 }
 .serMermerLogo {
-  width: 10%;
-  min-width: 150px;
+  width: 12%;
+  min-width: 110px;
 }
 nav {
   font-weight: 700;
@@ -20,7 +20,7 @@ nav {
   max-height: 400px;
   width: 100%;
   position: relative;
-  margin-top: 73px;
+  margin-top: 60px;
 }
 /* carousel */
 @media (max-width: 767px) {
@@ -68,15 +68,6 @@ nav {
 main > section {
   margin-bottom: 5%;
 }
-@media only screen and (max-width: 1400px) {
-  #myInput {
-    position: absolute;
-    width: 35%;
-    height: 30px;
-    top: 20px;
-    left: 40%;
-  }
-}
 .kampanyalı-ürün-img-container {
   width: 40%;
   height: 400px;
@@ -121,6 +112,11 @@ ul .yatay-dropdown {
   height: auto;
   text-align: center;
 }
+form .yatay-dropdown {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
 .yatay-dropdown li {
   width: 15%;
   display: inline-block;
@@ -139,16 +135,10 @@ ul .yatay-dropdown {
   right: 10px;
   text-align: right;
   bottom: 10px;
+  width: 6%;
 }
-@media only screen and (max-width: 800px) {
-  .yatay-dropdown li {
-    width: 40%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .footer-logo {
-    min-width: 120px;
-  }
+.whatsapp-icon img {
+  width: 100%;
 }
 .hakkımızda-container h1 {
   border: 1px solid rgb(0, 0, 0);
@@ -175,8 +165,53 @@ ul .yatay-dropdown {
   text-align: right;
   margin-top: 0.5%;
 }
-@media only screen and (max-width: 800px) {
-  .navbar-toggler {
-    float: left;
+#search-input {
+  width: 25%;
+  min-width: 150px;
+  height: 40px;
+}
+.navbar-icons {
+  width: 50%;
+}
+.navbar-icons .ana-sayfa {
+  display: none;
+}
+@media only screen and (max-width: 1201px) {
+  .footer-logo {
+    min-width: 120px;
+  }
+  .yatay-dropdown li {
+    width: 40%;
+  }
+  .navbar-icons button span,
+  .navbar-icons .kayıt-ol {
+    display: none;
+  }
+  .navbar-icons button {
+    height: 70%;
+    margin: 5px;
+    border: none;
+  }
+  form {
+    position: fixed;
+    top: 10px;
+    left: 30%;
+  }
+  .yatay-dropdown #search-input {
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  .navbar-icons {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(190, 186, 186);
+    border-top: 1px solid black;
+  }
+  .navbar-icons .ana-sayfa {
+    display: block;
   }
 }
