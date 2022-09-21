@@ -169,6 +169,7 @@ form .yatay-dropdown {
   width: 25%;
   min-width: 150px;
   height: 40px;
+  padding: 5px 20px;
 }
 .navbar-icons {
   width: 50%;
@@ -208,10 +209,28 @@ form .yatay-dropdown {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(190, 186, 186);
+    background-color: rgba(225, 223, 223, 0.89);
     border-top: 1px solid black;
   }
   .navbar-icons .ana-sayfa {
     display: block;
+  }
+  .serMermerLogo img {
+    margin-left: -30%;
+  }
+  #search-icon {
+    position: fixed;
+    right: 10px;
+    text-align: right;
+  }
+  #search-input-container {
+    position: relative;
+    top: 40px;
+    left: -140px;
+    border: none;
+    width: 400px;
+  }
+  .whatsapp-icon {
+    bottom: 50px;
   }
 }
