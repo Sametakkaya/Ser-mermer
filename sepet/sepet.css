@@ -1,3 +1,6 @@
+body {
+  background-color: rgba(255, 255, 255, 0.536);
+}
 .img-container {
   width: 30%;
   margin-right: 20px;
